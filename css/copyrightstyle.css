@@ -1,0 +1,218 @@
+
+/* = Reset
+-----------------------------------------------------*/
+
+*, ul, ol, li, th, td {
+	margin: 0;
+	padding: 0
+}
+
+/* = Footer
+-----------------------------------------------------*/
+#footer-area{
+	background: #171717;
+	padding: 60px 0;
+	text-align: center;
+	position: relative;
+	clear: both;
+}
+#footer-section {
+	padding: 0;
+	background: #313131;
+	text-align: center;
+	color: #999;
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+/* = Footer socials
+-----------------------------------------------------*/
+.footer-socials-section {
+	padding: 30px 0 15px;
+	border-bottom: 1px solid #4A4A4A;
+	text-align: center;
+}
+ul.footer-socials {
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+}
+ul.footer-socials li {
+	float: none;
+	display: inline-block;
+	margin-right: 36px;
+	margin-bottom: 15px;
+}
+ul.footer-socials li:last-child {
+	margin-right: 0;
+}
+ul.footer-socials li a {
+	line-height: 36px;
+	display: inline-block;
+	vertical-align: top;
+}
+ul.footer-socials li a i {
+	width: 36px;
+	height: 36px;
+	line-height: 34px;
+	display: inline-block;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	background: none;
+	color: #999;
+	border: 1px solid #999;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	font-size: 14px;
+	vertical-align: top;
+}
+ul.footer-socials li a:hover i {
+	background: #6eb48c;
+	color: #fff;
+	border-color: #6eb48c;
+}
+ul.footer-socials li a span {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: #999;
+	display: inline-block;
+	letter-spacing: 1px;
+	margin-left: 14px;
+	vertical-align: top;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+ul.footer-socials li a:hover span {
+	color: #6eb48c;
+}
+
+/* = Footer Logo & copyright
+-----------------------------------------------------*/
+.footer-logo-copyright {
+	padding: 40px 0 73px;
+	text-align: center;
+}
+.footer-logo-copyright.footer-not-gotop {
+	padding: 40px 0;
+}
+.footer-logo-copyright.footer-not-logo {
+	padding: 20px 0 62px;
+}
+.footer-logo-copyright.footer-not-logo.footer-not-gotop {
+	padding: 20px 0;
+}
+#footer-logo {
+	margin: 0 0 32px 0;
+}
+#footer-copyright * {
+	font-size: 14px;
+	color: #999;
+	line-height: 1.4;
+	font-style: italic;
+}
+#footer-copyright a {
+	color: #6eb48c;
+}
+#footer-copyright a:hover {
+	text-decoration: underline;
+}
+
+/* = Footer Menu
+-----------------------------------------------------*/
+.footer-menu-wrap {
+	display: block;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.footer-menu-wrap:before{
+	content: "";
+	display: table;
+}
+.footer-menu-wrap:after {
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	content: "";
+}
+div.footer-menu > ul,
+ul.footer-menu{
+	list-style: none;
+	display: inline-block;
+	vertical-align: top;
+}
+.footer-menu li {
+	display: inline-block;
+	padding: 0 15px;
+	position: relative;
+	margin-bottom: 5px;
+}
+#footer-section .footer-menu li a{
+	color: #999;
+}
+#footer-section .footer-menu li a:hover {
+	color: #6eb48c;
+}
+.footer-menu ul.sub-menu {
+	display: none !important;
+}
+
+/* = Footer go to top
+-----------------------------------------------------*/
+#footer-section .go-to-top-parent {
+	width: 100%;
+	height: auto;
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 17px;
+	text-align: center;
+	z-index: 10;
+}
+#footer-section .go-to-top-parent span {
+	color: #999;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	line-height: 1;
+	display: inline-block;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+}
+#footer-section .go-to-top-parent span:before,
+#footer-section .go-to-top-parent span:after {
+	content: " ";
+	display: table;
+}
+#footer-section .go-to-top-parent span:after {
+	clear: both;
+}
+#footer-section .go-to-top-parent i {
+	font-size: 18px;
+	z-index: 5;
+	position: relative;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	color: #999;
+	line-height: 1;
+	margin-bottom: 3px;
+}
+#footer-section .go-to-top:hover span,
+#footer-section .go-to-top:hover i {
+	color: #fff;
+}
+
+
+
