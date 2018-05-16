@@ -1,0 +1,157 @@
+
+        
+
+/* RESET END */
+/* Grouping css*/
+#header, #logo, #nav, #nav span, #banner, #content h4 span, #sbi_logo, #sbbj_logo, #sbh_logo, #sbm_logo, #sbp_logo, #sbt_logo, .list, .arrow, ul.list li div, ul.list li, .heading, .button, txt_heading, #footer{
+	float:left; 
+}
+#sbcollect_logo {
+	float:right;
+}
+#header, #nav, #content h4 span, ul.list li, .heading, #banner, #footer {
+	width:100%;
+}
+
+
+
+
+
+#nav {
+	background-color:#5a86dd;
+	height:33px;
+}
+#nav span {
+	padding:8px 0 10px 10px;
+	color:#e9effa;
+}
+.font_14 {
+	font-size:14px;
+}
+.font_12 {
+	font-size:12px !important;
+}
+
+
+
+#content h4 span {
+	font-size:15px;
+	color:#0089cf;
+	font-weight:bold;
+	padding:10px 0 0 10px;
+	width:49%;
+}
+#content span a {
+	color:#343434;
+	margin-left:5px;
+	text-decoration:none;
+}
+.font_13 {
+	font-size:13px;
+}
+.txt_green {
+	color:#54acba;
+	font-weight:bold;
+}
+.heading {
+	padding:12px 0 0 22px;
+	font-weight:bold;
+	display:block;
+}
+
+ul.list li div{
+	margin:11px 10px 0 0;
+	color:#4e4e4e;
+	text-align:justify;
+	line-height:20px;
+}
+
+.float_left {
+	float:left;
+}
+        
+        .marginTRL {
+	margin:13px 10px 0 0;
+}
+.marginT5 {
+	margin-top:5px;
+}
+
+
+.button a {
+	text-decoration:none;
+	color:#fff;
+	padding:5px 0 0 13px;
+}
+        
+        .width100 {
+	width:100%;
+}
+.bold {
+	font-weight:bold;
+}
+
+
+.marginT40 {
+	margin-top:40px;
+}
+ 
+.float_left {
+    float: left;
+}
+        #footer {
+	background-color:#54acba;
+	height:30px;
+	margin-top:30px;
+}
+#footer a {
+	color:#fff;
+	text-decoration:none;
+}
+#footer a:hover {
+	text-decoration:underline;
+}
+.float_right {
+	float:right;
+}
+.footer_txt {
+	padding:10px 10px 0 10px;
+	color:#fff;
+}
+ 
+.terms-conditions {
+	float:left;
+	padding:10px 0 0 40px;
+}
+ 
+.terms-conditions input{
+	float:left;
+	display:inline-block;
+	margin:0;
+	padding:0;
+	height:20px;
+	width:20px;
+}
+ 
+.terms-conditions-text {
+	margin-top:2px;
+	padding-left:5px;
+	float:left;
+	color:#4E4E4E;
+	font-weight:normal
+}
+
+.clear {
+	clear:both
+}
+ 
+.topnavlink{font-weight:bold;color:#fff;background-color:#5a86de;text-decoration:none;vertical-align:middle;padding:2px 8px 2px 8px;margin:0px 5px 0px 5px;}
+a.topnavlink:hover{color:#fff;background-color:#52aec6;height: 33px;}
+
+
+.text_blue {
+	color:#04a4ea !important;
+	text-decoration:underline;
+}
+        
+       
